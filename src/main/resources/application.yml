@@ -1,0 +1,31 @@
+#普通数据的配置
+name: zhangsan
+
+#对象的配置
+person:
+  name: zhangsan
+  age: 18
+  addr: beijing
+
+#行内对象配置
+#person: {name: zhangsan, age: 18}
+
+#配置数据、集合
+city:
+  - beijing
+  - tianjing
+  - shanghai
+#行内
+#city: [beijing,tianjing]
+
+#对象数据
+student:
+  - name: tom
+    age: 19
+  - name: lisi
+    age: 25
+
+#student: [{name: tom,age: 18},{name: lisi,age: 25}]
+
+server:
+  port: 8082
